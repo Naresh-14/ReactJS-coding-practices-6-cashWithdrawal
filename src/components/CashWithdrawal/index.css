@@ -1,0 +1,88 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.cash-container {
+  width: 60%;
+  background-color: #150b3e;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.cash-card {
+  display: flex;
+}
+.cash-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #c7d2fe;
+  color: #585076;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 30px;
+}
+.cash-name {
+  font-size: 34px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #d4d2db;
+  margin-top: 50px;
+}
+
+.cash-balance-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.cash-balance-title {
+  font-size: 28px;
+  font-family: 'Roboto';
+  color: #382f5a;
+}
+
+.sub-balance-card {
+  display: flex;
+  flex-direction: column;
+}
+.sub-balance-rupees {
+  font-size: 34px;
+  font-family: 'Roboto';
+  color: #fff;
+}
+
+.sub-balance-name {
+  font-size: 28px;
+  font-family: 'Roboto';
+  color: #382f5a;
+}
+.withdraw-container {
+  text-align: start;
+}
+
+.withdraw-title {
+  font-size: 34px;
+  font-family: 'Roboto';
+  color: #fff;
+}
+
+.withdraw-description {
+  font-size: 28px;
+  font-family: 'Roboto';
+  color: #382f5a;
+}
+
+.lists-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

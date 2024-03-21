@@ -1,0 +1,16 @@
+.list-item-contanier {
+  margin: 20px;
+}
+
+.denomination-button {
+  width: 250px;
+  height: 58px;
+  background-color: #585076;
+  border: 1px solid #d4d2db;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #d4d2db;
+  border-radius: 10px;
+  cursor: pointer;
+}
